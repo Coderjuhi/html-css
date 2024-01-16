@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.calculator {
+    border: 2px solid black;
+    background-color: #ece8e8;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /* width: 40vw; */
+    box-shadow: 0 1rem rgba(8, 5, 5, 0.9);
+    border-radius: 1rem;
+    /* padding: 4rem 8rem; */
+}
+
+
+input {
+    margin-right: 9px;
+    padding: 22px 5px;
+    border-radius: 13px;
+    font-size: 1.3rem;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.equal {
+    border: 2px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    color: #ffff;
+    margin-right: 10px;
+    box-shadow: 0 1rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+.dot {
+    border: 2px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    margin-right: 10px;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1rem rgba(0, 0, 0, 0.4);
+}
+.green{
+    background-color: rgb(1, 55, 1);
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    color: black;
+}
+.container{
+    display: grid;
+    min-height: 100vh;
+    width: 100vw;
+    place-items: center;
+    background-color: rgb(202, 241, 228);
+}
+.box{
+    width: 40vw;
+    box-shadow: 0 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 4rem 8rem;
+    
+}
+h2{
+
+}
+li{
+    list-style: none;
+}
+input{
+
+} .submit{
+    padding: 6px 6px;
+    background-color: #5d66e2d4;
+    border-color: #ffff;
+}
+.submit button{
+    
+}
+#score{
+
+}
+
+.scorearea{
+
+}

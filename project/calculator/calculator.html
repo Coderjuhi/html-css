@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="box">
+            <input type="text" id="inputBox" value="">
+            <div class="first">
+                <button class="dot" id="button" onclick="fun(this)" value="AC">AC</button>
+                <button class="dot" id="button" onclick="fun(this)" value="DE">DE</button>
+                <button class="dot" id="button" onclick="fun(this)" value="%">%</button>
+                <button class="dot green" id="button" onclick="fun(this)" value="/">/</button>
+            </div>
+            <div class="second">
+                <button class="dot" id="button" onclick="fun(this)" value="7">7</button>
+                <button class="dot" id="button" onclick="fun(this)" value="8">8</button>
+                <button class="dot" id="button" onclick="fun(this)" value="9">9</button>
+                <button class="dot green" id="button" onclick="fun(this)" value="*">*</button>
+            </div>
+            <div class="third">
+                <button class="dot" id="button" onclick="fun(this)" value="4">4</button>
+                <button class="dot" id="button" onclick="fun(this)" value="5">5</button>
+                <button class="dot" id="button" onclick="fun(this)" value="6">6</button>
+                <button class="dot green" id="button" onclick="fun(this)" value="-">-</button>
+            </div>
+            <div class="four">
+                <button class="dot" id="button" onclick="fun(this)" value="1">1</button>
+                <button class="dot" id="button" onclick="fun(this)" value="2">2</button>
+                <button class="dot" id="button" onclick="fun(this)" value="3">3</button>
+                <button class="dot green" id="button" onclick="fun(this)" value="+">+</button>
+            </div>
+            <div class="fifth">
+                <button class="dot" id="button" onclick="fun(this) " value="00">00</button>
+                <button class="dot" id="button" onclick="fun(this)" value="0">0</button>
+                <button class="dot" id="button" onclick="fun(this)" value=".">.</button>
+                <button class="equal" id="button" onclick="fun(this)" value="=">=</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="cal.js">
+
+    </script>
+</body>
+
+</html>

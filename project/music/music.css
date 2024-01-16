@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(210, 19, 140);
+}
+
+.container {
+    height: 100vh;
+    /* background-color: #e812e130; */
+    width: 100%;
+}
+
+.music-container {
+    height: 75vh;
+    width: 30vw;
+    background: linear-gradient(#4b014930,#e812e130, #9d809c30);
+    box-shadow: 10px 10px 0  rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    margin: auto;
+    place-items: center;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    margin-top: 2rem;
+    font-weight: 900;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-weight: 200;
+
+}
+
+#img {
+    height: 13rem;
+    filter: drop-shadow(10px 10px  rgba(0, 0, 0, 0.1)1);
+    border-radius: 50%;
+    margin-top: 4rem;
+    
+}
+
+
+.music-content {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    word-spacing: 5rem;
+}
+
+/* .music-content .main {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(210, 19, 140);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+} */
+.music-content #next:hover{
+    color: rgb(232, 95, 182);
+}
+.music-content  #prev:hover{
+    color: rgb(232, 95, 182);
+}
+/* .music-content .fa-play:hover{
+    background-color: #fff;
+    color: rgb(210, 19, 140);
+} */
+.anime{
+    animation: rotateplayer 3s linear infinite;
+}
+@keyframes rotateplayer{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
