@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    /* background-blend-mode: darken; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+
+nav button {
+    align-items: center;
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 150px;
+    width: 150px;
+}
+
+.lang-btn {
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #fff;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+
+.head-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 700px;
+}
+
+.head-content h3 {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.email-sign {
+    /* background: white; */
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.email-sign input {
+    flex: 0.9;
+    border: 0;
+    outline: 0;
+    margin-left: 100px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 20px 5px;
+    border-radius: 5px;
+
+}
+
+.email-sign button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 10px;
+    display: inline-flex;
+    border-radius: 5px;
+    margin-right: 100px;
+    width: 150px;
+    font-weight: 600;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+/* .text h2{ */
+    /* font-size: 60px; */
+    /* line-height: 70px; */
+    /* font-weight: 600; */
+    /* max-width: 700px; */
+    /* margin-left: 146px; */
+    /* margin-top: 180px; */
+/* }  */
+.text h3{ 
+    /* line-height: 40px; */
+    /* font-weight: 400; */
+    /* max-width: 790px; */
+    /* margin-left: 146px; */
+    /* font-size: 30px; */}
+hr {
+    border: 4px solid gray;
+    width: 100%;
+}
+
+.img-tv {
+    /* flex-basis: 50%; */
+    /* margin-bottom: 20px; */
+}
+
+.vid-tv {
+    display: flex;
+    justify-content: flex-end;
+}
+.container2{
+    display: flex;
+}
+.vid-tv video {
+    z-index: -1;
+    position: relative;
+    right: 35rem;
+    
+}
+
+
+.text {
+    display: flex;
+    
+
+}
+.text-col{
+    /* display: flex; */
+
+}
+.text h2 {
+
+}
+
+
+.text h3 {
+    
+}
+video{
+    position: relative;
+    top: 23rem;
+    left: 5rem;
+    z-index: -1;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        #redelement {
+            color: rgb(245, 18, 18);
+            background-color: #fff;
+            height: 50px;
+            width: 777px;
+            border-top: 2px solid black;
+            border-right: 2px solid rgb(8, 236, 61);
+            border-left: 2px solid rgb(232, 17, 17);
+            border-bottom: 2px solid rgb(207, 8, 242);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 14px;
+            border-bottom-left-radius: 10px;
+        }
+    </style>
+    <style>
+        #edelement {
+            background-color: #f1ee1f;
+            /* color by hex value*/
+            height: 50px;
+            width: 777px;
+            border: 4px solid aquamarine;
+            /* border-color: aquamrine;
+        border-style: solid;
+        border-width: 4px;*/
+            border-radius: 46px;
+        }
+    </style>
+    <style>
+        #rdelement {
+            background-color: rgb(209, 209, 21);
+            /*  color by rgb vl*/
+            height: 200px;
+            width: 200px;
+            background-image: url(/photo/juhi.jpg);
+            border: 4px solid aquamarine;
+            background-repeat: no-repeat;
+            /*repeat-x and repeat
+                                                   repet-y will make it repeat at x and y*/
+            background-position: center;
+        }
+
+        footer,
+        spam {
+            background-color: rgb(238, 14, 156);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS selectors</h3>
+    <p id="edelement">this is simply paragraph to demonstrte css se;</p>
+    <p id="redelement">this is simply another paragraph to demonstrte css se;</p>
+    <div>
+        <p id="rdelement">this is simply yet another paragraph to demonstrte css se;</p>
+        <spam>this is spam</spam>
+    </div>
+
+    <footer>this if footer</footer>
+
+
+
+
+
+</body>
+
+</html>

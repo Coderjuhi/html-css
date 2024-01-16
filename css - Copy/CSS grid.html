@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .grid{
+           display: grid;
+
+           /* grid-template-rows: 1fr 1fr 4fr; */
+           grid-template-rows: repeat(4, 1fr);
+           grid-template-columns: repeat(5, 1fr);
+           /* grid-template-columns: 1fr 3fr 3fr; */
+           /* grid-row-gap:1rem;
+           grid-column-gap:7rem; */
+           grid-gap:1rem;
+
+     }
+     .box{
+        background-color: rgb(231, 142, 231);
+        border: 1px solid black;
+        padding: 23px;
+     }
+     .box:first-child{
+        /* grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 3;
+        grid-row-end: 3; */
+        grid-column: 1/span 3;
+        grid-row: 1/span 3;
+     }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box">This is box-1</div>
+        <div class="box">This is box-2</div>
+        <div class="box">This is box-3</div>
+        <div class="box">This is box-4</div>
+        <div class="box">This is box-5</div>
+        <div class="box">This is box-6</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-8</div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
