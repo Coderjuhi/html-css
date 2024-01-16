@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+.container Video{
+  height: 100%;
+  width: 100%;
+
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: 900;
+    mix-blend-mode: multiply;
+    
+}
+
+</style>
+<body>
+    <div class="container">
+        <video autoplay loop muted>
+            <source src="video.mp4">
+        </video>
+        <div class="text">
+            JUHI GUPTA 
+        </div>
+    </div>
+</body>
+</html>

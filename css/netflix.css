@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+hr {
+    border: 4px solid gray;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.bg-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* first section  */
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.logo img {
+    width: 12rem;
+    height: 8.5rem;
+    margin-left: 143px;
+    margin-top: -25px;
+}
+
+.eng {
+    background-color: transparent;
+    color: white;
+    font-weight: 550;
+    display: inline-flex;
+    align-items: center;
+    border: 0.8px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 115px;
+    margin-right: 18px;
+    margin-top: 25px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.sign {
+    color: white;
+    background-color: #db0001;
+    display: inline-flex;
+    border: 0.8px solid white;
+    /* width: 100px; */
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-right: 225px;
+    margin-top: 25px;
+    font-weight: 550;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 288px;
+    margin-top: 160px;
+}
+
+.content h1 {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.content h2 {
+    margin-left: 310px;
+    margin-top: 20px;
+}
+
+.content p {
+    margin-left: 255px;
+    margin-top: 35px;
+}
+
+.btn-content {
+    display: flex;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.btn-content button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 10px;
+    display: inline-flex;
+    border-radius: 5px;
+    margin-right: 100px;
+    width: 150px;
+    font-weight: 600;
+}
+
+.btn-content input {
+    margin-left: 552px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 20px 5px;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+.text-col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.text-col h1 {
+    font-weight: 900;
+    font-size: 50px;
+
+}
+
+.text-col h2 {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.video {
+    position: relative;
+    top: 6rem;
+    left: 35rem;
+    z-index: -1;
+}
+
+.vid-tv {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-col-2 {
+    margin-top: 200px;
+}
+
+.text-col-2 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 550px;
+}
+
+.box {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    width: 320px;
+    height: 86px;
+    display: flex;
+    gap: 25px;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 15px;
+    margin-top: -160px;
+    margin-left: 155px;
+
+}
+.container-2{
+    background-image: url(transparent.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.box-img {
+    height: 72px;
+}
+
+.down {
+    color: #0071eb;
+
+}
+.container-3{
+    background-image: url(transparent.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.text-cont {
+    margin-top: 30px;
+}
+
+.text-3{ display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.text-cont-1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    /* width: 550px; */
+}
+.text-cont-1 h2{
+  width: 550px;
+  margin-top: 10px;
+}
+.text-4{ display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.text-cont-3 {
+    margin-top: 225px;
+}
+.text-cont-3 h2{
+    width: 550px;
+    margin-top: 10px;
+  }
+  .container-3{
+    background-image: url(transparent.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.text-cont-3 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+/* .video {
+    z-index: 1;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)center center no-repeat;
+} */
+.input{
+    display: flex;
+}
+.container-5{
+    margin-top: 70px;
+    margin-left: 120px;
+    background-image: url(transparent.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.container-5 h1{
+    margin-top: 0px;
+    padding-bottom: 3%;
+    margin-left: 345px;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.container-5 .tab {
+    position: relative;
+    background-color: rgb(78,78,78);
+    padding: 0  10px 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05)
+    overflow: hidden;
+
+}
+.tab{
+    margin-bottom: 30px;
+}
+.input h2{
+    display: flex;
+    align-items: center;
+}
+.input ::after{
+        content: "+";
+        position: absolute;
+        right: 20px;
+        font-size: 2.5em;
+        transition: transform 1s;
+
+}
+  .tab :hover input::after{
+           color:rgb(78, 78, 78) ;
+}
+.tab :checked ~ input::after{
+    transform: rotate(135deg);
+}
+.content-2  {
+   max-height: 0;
+   transition: 1s;
+   overflow: hidden;
+
+}
+:checked ~ .content-2{
+    max-height: 100vh;
+}
+.container-6{
+    background-image: url(transparent.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.content-3{
+    margin-left: 180px;
+    margin-top: 120px;
+
+}
+.container-6 .text-5{
+    
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+   grid-template-rows: repeat(5,3fr);
+   grid-gap: 2rem;
+   margin-top: 20px;
+   text-decoration: underline;
+   color: rgb(91, 90, 90);
+   font-size: 0.9rem;
+  
+}
+.box1{
+    /* border: 1px solid white; */
+    /* background-color:red; */
+    /* padding: 23px; */
+}
+.btn-1 button{
+    background-color: transparent;
+    color: white;
+    font-weight: 550;
+    display: inline-flex;
+    align-items: center;
+    border: 0.8px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 115px;
+    margin-right: 18px;
+    margin-top: 25px;
+}
+.arrow-1{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.text-6{
+    margin-top: 22px;
+    color: rgb(91, 90, 90);
+}
