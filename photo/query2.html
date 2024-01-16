@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #ffff;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 900;
+
+        }
+
+        .button {
+            position: relative;
+            margin-top: 30px;
+            font-size: 1.3rem;
+        }
+
+        .submit {
+            padding: 20px 44.5rem;
+            margin-top: 200px;
+            background-color: #da56da;
+            border: 1px solid #ffff;
+            border-radius: 5px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffff;
+
+        }
+
+        .submit a {
+            background-color: #da56da;
+            text-decoration: none;
+            color: #ffff;
+        }
+        .submit:hover{
+    background-color: #8d0c8d;
+}
+.submit:hover a{
+    background-color: #8d0c8d;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container" id="quiz">
+        <div class="box" id="question">
+            <h2><label>What is full form of CSS ?</h2></label>
+            <div class="button">
+                <div class="answer">
+                    <input name="options" id="a_text" type="radio">
+                    <label for="a_text">Central Style Sheets</label>
+                </div>
+                <div class="answer">
+                    <input name="options" id="b_text" type="radio">
+                    <label for="b_text">Cascading Style Sheets</label>
+                </div>
+                <div class="answer">
+                    <input name="options" id="c_text" type="radio">
+                    <label for="c_text">Cascading Simple Sheets</label>
+                </div>
+                <div class="answer">
+                    <input name="options" id="d_text" type="radio">
+                    <label for="d_text">Cars SUVs Sailboats</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="submit" id="submit">
+                <a href="query3.html">Submit</a>
+            </button>
+        </div>
+    </div>
+    <script src="query.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #ffff;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 900;
+
+        }
+
+        .button {
+            position: relative;
+            margin-top: 30px;
+            font-size: 1.3rem;
+        }
+
+        .submit {
+            padding: 20px 44.5rem;
+            margin-top: 200px;
+            background-color: #da56da;
+            border: 1px solid #ffff;
+            border-radius: 5px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffff;
+
+        }
+
+        .submit a {
+            background-color: #da56da;
+            text-decoration: none;
+            color: #ffff;
+        }
+        .submit:hover{
+    background-color: #8d0c8d;
+}
+.submit:hover a{
+    background-color: #8d0c8d;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2><label>What is full form of HTML ?</h2></label>
+            <div class="button">
+                <div class="opt1">
+                    <input name="options" id="opt1" type="radio">
+                    <label for="opt1">Hypertext Markup Language</label>
+                </div>
+                <div class="opt2">
+                    <input name="options" id="opt2" type="radio">
+                    <label for="opt2">Hypertext Markup Textdown</label>
+                </div>
+                <div class="opt3">
+                    <input name="options" id="opt3" type="radio">
+                    <label for="opt3">Hyperloop Machine Language</label>
+                </div>
+                <div class="opt4">
+                    <input name="options" id="opt4" type="radio">
+                    <label for="opt4">Helicopters Terminals Motorboats Lamborginis</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="submit">
+                <!-- <a href="query4.html"> -->
+                    Submit</a>
+            </button>
+        </div>
+    </div>
+    <script src="query.js"></script>
+</body>
+
+</html>
